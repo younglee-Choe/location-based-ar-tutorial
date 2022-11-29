@@ -16,9 +16,12 @@
     <a-scene
         vr-mode-ui="enabled: false"
 		embedded
-        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+        arjs='sourceType: webcam; sourceWidth:720; sourceHeight:480; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
         
         <a-camera gps-camera rotation-reader></a-camera>
-        <a-entity obj-model="obj: ./assets/low_poly_tree/Lowpoly_tree_sample.obj; mtl: ./assets/low_poly_tree/Lowpoly_tree_sample.mtl" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="latitude: 35.861237; longitude: 129.189807;" animation-mixer/>
+        <a-asset-item id="leele-obj" src="./assets/low_poly_tree/Lowpoly_tree_sample.obj"></a-asset-item>
+        <a-asset-item id="leele-mtl" src="./assets/low_poly_tree/Lowpoly_tree_sample.mtl"></a-asset-item>
+
+        <a-entity obj-model="obj: #leele-obj; mtl: #leele-mtl" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="latitude: 35.861237; longitude: 129.189807;" animation-mixer/>
 	</a-scene>
 </body>
