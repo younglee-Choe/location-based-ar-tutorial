@@ -12,4 +12,9 @@ These three, basic projects are used on [this tutorial](https://medium.com/chial
 
 Have fun! 🌍
 
+
+Live URL: [https://younglee-Choe.github.io/location-based-ar-tutorial/](https://younglee-Choe.github.io/location-based-ar-tutorial)
+
+Live URL (i.e. for dynamic-places folder): [https://younglee-Choe.github.io/location-based-ar-tutorial/v3](https://younglee-Choe.github.io/location-based-ar-tutorial/dynamic-places)
+
 Live URL (i.e. for v3 folder): [https://younglee-Choe.github.io/location-based-ar-tutorial/v3](https://younglee-Choe.github.io/location-based-ar-tutorial/v3)
